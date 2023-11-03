@@ -1,0 +1,17 @@
+@mixin mediaMobile {
+    @media screen and (max-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin mediaMobLap {
+    @media (min-width: $mobile) and (max-width: $laptop) {
+        @content;
+    }
+}
+
+@mixin mediaLaptop {
+    @media screen and (min-height: $laptop) {
+        @content;
+    }
+}

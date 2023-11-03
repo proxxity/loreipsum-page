@@ -1,0 +1,10 @@
+@import './base/reset';
+@import './base/base';
+@import './base/fonts';
+@import './base/vars';
+@import './base/mixins';
+
+
+@import './blocks/header/index.scss';
+@import './blocks/main/index.scss';
+@import './blocks/footer/index.scss';
