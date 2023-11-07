@@ -1,0 +1,22 @@
+@include mediaMobile {
+    .footer-content {
+        height: 200px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .footer-translations {
+        gap: 5px;
+    }
+
+    .footer-contacts {
+        gap: 10px;
+    }
+
+    .separator {
+        width: 50px;
+        height: 1px;
+    }
+}

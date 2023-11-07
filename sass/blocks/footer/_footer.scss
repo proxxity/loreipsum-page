@@ -1,0 +1,62 @@
+.footer {
+    width: 100%;
+    background-color: #3D4050;
+    color: #fff;
+    font-family: $regular;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-content__text {
+    a {
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}
+
+.separator {
+    width: 1px;
+    height: 18px;
+    background-color: #C3C3C3;
+}
+
+.footer-translations {
+    display: flex;
+    gap: 38px;
+
+    a {
+        display: flex;
+        align-items: center;
+        color: #C3C3C3;
+        gap: 10px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 38px;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: inherit;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
